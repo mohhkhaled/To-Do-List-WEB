@@ -1,3 +1,8 @@
+//83dt nos sa3a msh fahem leyh m8darsh 23mel keda int currenttask; 3shan 23rafo mn8er value
+//shoutout Eslam 
+//2eyh 2l3onsorya dy leyh mafesh linux tuto l2ay 7aga fe el group
+
+//main global currentask var
 let currenttask = 0;
 
 function addtask()
@@ -19,9 +24,9 @@ function addtask()
     checkbox.name = "taskCheckbox";
     checkbox.value = "option1";
     const taskText = document.createElement("span");
-
+    //the main string style
     taskText.textContent = " ● " + newtask + " "
-
+    //adding event listener for checkbox func
     checkbox.addEventListener("change", function(){
         if (checkbox.checked) {
             taskText.style.textDecoration = "line-through";
