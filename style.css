@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(79, 79, 79);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(240, 244, 247);
+}
+.stdinTasks{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color:aliceblue;
+    background-color: grey;
+    margin-bottom: 5%;
+}
+.Mbutton{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.Mbutton:hover{
+        background-color: #45a049;
+}
+.Main{
+    gap: 20px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.showbox{
+    text-align: left;
+    justify-content: center;
+    width: 500px;
+    background-color: rgb(121, 121, 121);
+}
+.delbtn{
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 38, 38);
+    font-size: 24px;
+}
+.delbtn:hover{
+    background-color: rgba(240, 255, 255, 0.249);
+}
+.prtnslogo{
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 5%;
+}
