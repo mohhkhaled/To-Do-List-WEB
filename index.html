@@ -15,7 +15,7 @@
         <div class="showbox" id="showbox">
             <p id="taskdp" class="taskdp"></p>
         </div>
-        <input type="text" name="stdinTasks" id="stdinTasks" placeholder="Enter a New Task" class="stdinTasks">
+        <input type="text" onkeydown="if(event.key === 'Enter') addtask()" name="stdinTasks" id="stdinTasks" placeholder="Enter a New Task" class="stdinTasks">
         <button type="button" onclick="addtask()" class="Mbutton">Add Task</button> 
     </div>
     </center>
